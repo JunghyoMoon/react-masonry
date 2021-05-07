@@ -1,25 +1,8 @@
 import React from "react";
+import Main from "./routes/Main";
 
-class App extends React.Component {
-	state = {
-		isLoading: true,
-		photos: [],
-	};
-
-	constructor() {}
-
-	render() {
-		const { isLoading, photos } = this.state;
-		return (
-			<section className="container">
-				{ isLoading ? (
-
-				) : (
-					
-				)}
-			</section>
-		)
-	}
+function App() {
+    return <Main />;
 }
 
 export default App;
